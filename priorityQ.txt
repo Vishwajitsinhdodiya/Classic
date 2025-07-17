@@ -1,0 +1,48 @@
+Sample Output:
+
+ 
+
+Current patient queue:
+{} (empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? N
+Name? Vikas
+Priority? 5
+
+Current patient queue:
+{5:Vikas} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? N
+Name? Priyal
+Priority? 3
+
+Current patient queue:
+{5:Vikas, 3:Priyal} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? U
+Name? Vikas
+New priority? 2
+
+Current patient queue:
+{2:Vikas, 3:Priyal} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? N
+Name? Nirmala
+Priority? 8
+
+Current patient queue:
+{2:Vikas, 3:Priyal, 8:Nirmala} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? P
+Processing patient: "Vikas"
+
+Current patient queue:
+{3:Priyal, 8:Nirmala} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? P
+Processing patient: "Priyal"
+
+Current patient queue:
+{8:Nirmala} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? P
+Processing patient: "Nirmala"
+
+Current patient queue:
+{} (empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? Q
+
+Exiting.
